@@ -8,7 +8,6 @@ const IMG_URL = "./img/rsp.png";
 $computer.style.background = `url(${IMG_URL})0 0`; //가위
 $computer.style.backgroundSize = "auto 200px";
 
-let forjs = undefined;
 const rpsX = {
   r: "-220px",
   p: "-440px",
