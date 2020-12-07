@@ -1,18 +1,18 @@
-#screen{
+#screen {
   width: 300px;
   height: 200px;
   text-align: center;
   user-select: none;
 }
-#screen{
-  &.waiting{
-    background-color:aqua;
+#screen {
+  &.waiting {
+    background-color: aqua;
   }
-  &.ready{
-    background-color:red;
-    color:white;
+  &.ready {
+    background-color: red;
+    color: white;
   }
-  &.now{
+  &.now {
     background-color: greenyellow;
   }
 }
