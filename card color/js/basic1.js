@@ -4,6 +4,7 @@ const $button = document.querySelector("button");
 const $word = document.querySelector("#word");
 const $order = document.querySelector("#order");
 
+let forjs = undefined;
 let word;
 let newWord;
 let num;
