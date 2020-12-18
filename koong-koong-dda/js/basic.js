@@ -10,6 +10,7 @@ if (playerNum) {
   let newWord;
   let num = 1;
 
+  let forjs = undefined;
   const onClickBtn = () => {
     if (
       !word ||
