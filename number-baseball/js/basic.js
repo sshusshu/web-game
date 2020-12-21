@@ -2,6 +2,7 @@ const $form = document.querySelector("#form");
 const $logs = document.querySelector("#logs");
 const $input = document.querySelector("#input");
 
+let forjs = undefined;
 const numbers = [];
 const answer = [];
 let out = 0;
