@@ -5,6 +5,7 @@ const rows = [];
 let turn = "O";
 let flag = false;
 
+let forjs = undefined;
 const checkWinner = (target) => {
   if (flag) return;
   const rowIndex = target.parentNode.rowIndex;

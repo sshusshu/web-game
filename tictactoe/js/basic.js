@@ -5,6 +5,7 @@ const rows = [];
 let turn = "O";
 let flag = false;
 
+let forjs = undefined;
 const callback = (event) => {
   if (flag) return;
   if (event.target.textContent !== "") {
