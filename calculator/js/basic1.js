@@ -4,8 +4,6 @@ const $result = document.querySelector("#result");
 let numOne = "";
 let operator = "";
 let numTwo = "";
-let forjs = undefined;
-
 const onClickNumber = (e) => {
   if (!operator) {
     numOne += e.target.innerText;
