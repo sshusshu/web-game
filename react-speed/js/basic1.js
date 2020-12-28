@@ -4,7 +4,6 @@ let startTime, endTime;
 let records = [];
 let timeoutId;
 
-let forjs = undefined;
 $screen.addEventListener("click", function () {
   if ($screen.classList.contains("waiting")) {
     //대기화면
