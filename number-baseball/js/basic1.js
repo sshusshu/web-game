@@ -2,7 +2,6 @@ const $form = document.querySelector("form");
 const $input = document.querySelector("input");
 const $logs = document.querySelector("#logs");
 
-let forjs = undefined;
 const numbers = Array(9)
   .fill()
   .map((v, i) => i + 1);
