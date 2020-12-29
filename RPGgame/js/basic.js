@@ -11,7 +11,6 @@ const $monsterHp = document.querySelector("#monster-hp");
 const $monsterAtt = document.querySelector("#monster-att");
 const $message = document.querySelector("#message");
 
-let forjs = undefined;
 const hero = {
   name: "",
   lev: 1,
