@@ -9,7 +9,6 @@ $computer.style.background = `url(${IMG_URL}) -220px 0`; //바위
 $computer.style.background = `url(${IMG_URL}) -440px 0`; //보
 $computer.style.backgroundSize = "auto 200px";
 
-let forjs = undefined;
 const rspX = {
   scissors: "-0",
   rock: "-220px",
