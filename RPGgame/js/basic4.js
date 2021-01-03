@@ -11,8 +11,6 @@ const $monsterHp = document.querySelector("#monster-hp");
 const $monsterAtt = document.querySelector("#monster-att");
 const $message = document.querySelector("#message");
 
-let forjs = undefined;
-
 let game;
 $startScreen.addEventListener("submit", (event) => {
   event.preventDefault();
