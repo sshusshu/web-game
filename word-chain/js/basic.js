@@ -9,7 +9,6 @@ let word;
 let newWord;
 $input.focus();
 
-let forjs = undefined;
 const onClickBtn = () => {
   if (!word || word[word.length - 1] === newWord[0]) {
     word = newWord;
