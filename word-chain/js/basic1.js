@@ -22,7 +22,6 @@ const onClickBtn = () => {
   }
 };
 
-let forjs = undefined;
 const onInput = (e) => {
   newWord = e.target.value;
 };
