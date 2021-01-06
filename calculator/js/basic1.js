@@ -4,6 +4,7 @@ const $result = document.querySelector("#result");
 let numOne = "";
 let operator = "";
 let numTwo = "";
+
 const onClickNumber = (e) => {
   if (!operator) {
     numOne += e.target.innerText;
@@ -16,6 +17,7 @@ const onClickNumber = (e) => {
   numTwo += e.target.innerText;
   $result.value += e.target.innerText;
 };
+
 const onClickOperator = (e) => {
   if (!numOne) {
     alert("숫자를 입력하세요.");
@@ -24,6 +26,7 @@ const onClickOperator = (e) => {
   operator = e.target.innerText;
   $operator.value = operator;
 };
+
 const onClickCal = () => {
   if (!numTwo) {
     alert("숫자를 먼저 입력하세요.");
@@ -47,6 +50,7 @@ const onClickCal = () => {
   numTwo = "";
   operator = "";
 };
+
 const onClickClear = () => {
   numOne = "";
   operator = "";
