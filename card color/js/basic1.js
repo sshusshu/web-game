@@ -7,6 +7,7 @@ const $order = document.querySelector("#order");
 let word;
 let newWord;
 let num;
+
 const onClickBtn = () => {
   if (!word || word[word.length - 1] === newWord[0]) {
     //제시어가 있거나 맞으면
