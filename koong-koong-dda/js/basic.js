@@ -32,6 +32,7 @@ if (playerNum) {
       $input.value = "";
     }
   };
+
   const onInput = (e) => {
     newWord = e.target.value;
   };
