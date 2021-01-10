@@ -13,8 +13,9 @@ for (let i = 0; i < 4; i++) {
   answer.push(numbers[ranNum]);
   numbers.splice(ranNum, 1);
 }
-console.log(answer);
+
 let tries = [];
+
 $form.addEventListener("submit", function (e) {
   e.preventDefault();
   const value = $input.value;
