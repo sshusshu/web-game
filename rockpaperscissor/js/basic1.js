@@ -48,6 +48,7 @@ const clickButton = (event) => {
     const myScore = scoreTable[myChoice];
     const diff = myScore - scoreTable[computerChoice];
     let message = "";
+
     if ([1, -2].includes(diff)) {
       message = "win!";
       score += 1;
@@ -64,6 +65,7 @@ const clickButton = (event) => {
       intervalId = setInterval(changeComputerHand, 100);
     }, 1000);
   }
+
   if (playCount === 5) {
     clearInterval(intervalId);
     let winner = "computer win";
