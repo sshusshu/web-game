@@ -26,6 +26,7 @@ $screen.addEventListener("click", function () {
     $screen.textContent = "너무 성급하시군요!";
   } else if ($screen.classList.contains("now")) {
     //클릭화면
+
     endTime = new Date();
     const current = endTime - startTime;
     records.push(current);
