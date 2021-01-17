@@ -21,14 +21,7 @@ const callback = (event) => {
   }
   //승자가 없으면
   const draw = rows.flat().every((cell) => cell.textContent);
-  // let draw = true;
-  // rows.forEach(row=>{
-  //     row.forEach(cell=>{
-  //         if(!cell.textContent){
-  //             draw = false;
-  //         }
-  //     })
-  // })
+
   if (draw) {
     $result.textContent = "무승부";
     return;
