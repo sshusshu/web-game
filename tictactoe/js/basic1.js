@@ -19,6 +19,7 @@ const checkWinner = (target) => {
     hasWinner = true;
   }
   //세로줄 검사
+
   if (
     rows[0][cellIndex].textContent === turn &&
     rows[1][cellIndex].textContent === turn &&
