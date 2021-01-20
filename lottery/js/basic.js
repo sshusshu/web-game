@@ -1,7 +1,6 @@
 const result = document.querySelector("#result");
 const bonus = document.querySelector("#bonus");
 
-let forjs = undefined;
 const numArr = Array(45)
   .fill()
   .map((a, i) => i + 1);
