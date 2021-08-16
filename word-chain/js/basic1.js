@@ -10,6 +10,7 @@ let num;
 const onClickBtn = () => {
   if (!word || word[word.length - 1] === newWord[0]) {
     //제시어가 있거나 맞으면
+
     word = newWord;
     $word.textContent = newWord;
     Number($order.textContent) > playerNum - 1 ? (num = 1) : num++;
